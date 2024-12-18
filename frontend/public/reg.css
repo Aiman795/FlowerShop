@@ -1,0 +1,135 @@
+/* Body Styling */
+body {
+  background: url("https://media.istockphoto.com/id/1320449190/photo/summer-background.jpg?s=612x612&w=0&k=20&c=pQhO1nPGWjOl-Lk9Y36c9NBCmTT17N0eCe-OynK_rTY=")
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form Container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Common Form Styling */
+form {
+  width: 300px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.85
+  ); /* Light background with transparency */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Form Title */
+form h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0f2027;
+}
+
+/* Input Control Styling */
+.input-control {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-control label {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.input-control input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.input-control input:focus {
+  outline: none;
+  border-color: #0f2027; /* Highlight on focus */
+}
+
+/* Error Message Styling */
+.input-control .error {
+  color: #ff3860;
+  font-size: 10px;
+  height: 13px;
+  margin-top: 3px;
+}
+
+/* Success and Error States */
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+/* Submit Button */
+form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #e97be3; /* Pink Button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #d065c7; /* Slightly darker on hover */
+}
+
+/* Link Styling */
+form p {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #666;
+}
+
+form p a {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+form p a:hover {
+  color: #0f2027;
+}
+
+/* Footer (Optional, if used) */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+}
+
+a {
+  color: rgb(197, 117, 131);
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Optional: Add underline on hover */
+}
